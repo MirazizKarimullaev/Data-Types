@@ -2,7 +2,7 @@
 x = 3
 #float
 y = 3.14
-#boolian?
+#Booleans
 yes = True
 #strings
 idk = "this in quotes is a string"
