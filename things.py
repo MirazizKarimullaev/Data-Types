@@ -9,6 +9,8 @@ idk = "this in quotes is a string"
 #lists
 students = ["a","bb","ccc","dddd","eeeee","ffffff","ggggggg","hhhhhhhh","iiiiiiiii","jjjjjjjjjj",1]
 students.append("llllllllllll")
+a = input("who do you want to find?")
 for students in students:
-    if(students == "dddd"):
-        print("found you dddd :D")
+    if(students == a):
+        print(f"found you {a} :D")
+# we need fix cuz i can5t find 1 but idk how
