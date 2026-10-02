@@ -1,5 +1,5 @@
 def service():
-    bill = int(input("how much was the bill?"))
+    bill = float(input("how much was the bill?"))
     quality = input("how was the service; bad, okay, good, or great? ")
     if quality == "bad":
         print("the total will be $" + str(bill))
